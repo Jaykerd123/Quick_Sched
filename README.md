@@ -1,34 +1,70 @@
-QuickSched: Appointment Scheduling Management System
-Overview
-QuickSched is an appointment scheduling management system designed to digitize manual scheduling processes, and improve digital healthcare access, especially in underserved communities.
-Feautures
+# QuickSched: Appointment Scheduling Management System
 
-Technology Stack
-The QuickSched system uses a web development stack with:
-•	Frontend: HTML for structure, CSS for styling, and JavaScript for interactivity. 
-•	Backend: PHP for server-side logic and MySQL for the database. 
-Installation Requirements
-XAMPP (or alternatives with Apache, MySQL, PHP)
-Web Browser
+## Overview
+**QuickSched** is an appointment scheduling management system designed to digitize manual scheduling processes and improve digital healthcare access, particularly in underserved communities.
 
-System Installation/Setup
-Open your XAMPP Control Panel and start Apache and MySQL.
-Extract the downloaded source code zip file.
-Copy the extracted source code folder and paste it into the XAMPP's "htdocs" directory.
-Browse the PHPMyAdmin in a browser. i.e. http://localhost/phpmyadmin
-Create a new database quicksched_db;
-Import the provided SQL file. The file is known as quicksched_db.sql located at the root folder
-Browse the Online Quicksched System in a browser. i.e.
-https://localhost/QuickSched/index.php for patient-side,
-https://localhost/QuickSched/index-doctor.php for doctor side and
-https://localhost/QuickSched/index-admin.php for admin-side.
+---
 
-User Access
-User: user@gmail.com Password: User123
-Doctor: doctor@gmail.com Password: Doctor123
-Admin: admin@gmail.com Password: Admin123
+## Features
 
-Developers
-Sario, Jaykerd
-Edusma, Sherralene
-Gumera, Jorry
+- **User Authentication**: Secure login access for administrators, doctors, and patients with role-based permissions.  
+- **Appointment Booking**: Patients can easily schedule appointments with doctors through a simple online interface.  
+- **Automated Reminders**: Sends email notifications to remind patients of upcoming appointments to reduce no-shows.  
+- **Medical Notes Management**: Doctors can view and update patient notes tied to specific appointments.  
+- **Smart Scheduling System**: Prevents scheduling conflicts and double bookings with real-time availability checks.  
+- **Admin Dashboard**: Manage users, view schedules, and oversee system operations in a centralized control panel.  
+- **Database Integration**: Stores all user, appointment, and medical data in a normalized MySQL database for efficient and accurate data retrieval.  
+- **Responsive Web Design**: Accessible on various devices, offering a consistent and user-friendly experience.  
+- **Improved Healthcare Access**: Tailored for rural and small hospitals to reduce travel burdens and enhance healthcare availability.
+
+---
+
+## Technology Stack
+
+- **Frontend**: HTML, CSS, JavaScript  
+- **Backend**: PHP  
+- **Database**: MySQL  
+
+---
+
+## Installation Requirements
+
+- [XAMPP](https://www.apachefriends.org/) (or any alternative with Apache, MySQL, and PHP support)  
+- Modern Web Browser  
+
+---
+
+## System Installation / Setup
+
+1. Open your **XAMPP Control Panel** and start **Apache** and **MySQL**.
+2. Extract the downloaded source code `.zip` file.
+3. Copy the extracted folder and paste it into the `htdocs` directory inside your XAMPP installation.
+4. Open a browser and go to [http://localhost/phpmyadmin](http://localhost/phpmyadmin)
+5. Create a new database named `quicksched_db`.
+6. Import the provided SQL file (`quicksched_db.sql`) located at the root of the project directory.
+7. Access the system via the following URLs:
+   - **Patient-side**: [http://localhost/QuickSched/index](http://localhost/QuickSched/index)
+   - **Doctor-side**: [http://localhost/QuickSched/index-doctor](http://localhost/QuickSched/index-doctor)
+   - **Admin-side**: [http://localhost/QuickSched/index-admin](http://localhost/QuickSched/index-admin)
+
+---
+
+## User Access Credentials
+
+| Role    | Email              | Password     |
+|---------|--------------------|--------------|
+| User    | user@gmail.com     | User123      |
+| Doctor  | doctor@gmail.com   | Doctor123    |
+| Admin   | admin@gmail.com    | Admin123     |
+
+---
+
+## Developers
+
+- **Jaykerd Sario**  
+- **Sherralene Edusma**  
+- **Jorry Gumera**
+
+---
+
+> © 2025 QuickSched Project. All rights reserved.
